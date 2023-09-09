@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "nombre": "cori"
+    },
+    {
+      "nombre": "Corina",
+      "id": 2
+    },
+    {
+      "nombre": "tami",
+      "id": 3
+    },
+    {
+      "nombre": "frank",
+      "id": 4
+    },
+    {
+      "nombre": "cristi",
+      "id": 5
+    },
+    {
+      "nombre": "linda",
+      "id": 6
+    }
+  ],
+  "tareas": [
+    {
+      "text": "prueba",
+      "nombre": "cori",
+      "id": 2
+    },
+    {
+      "text": "comer",
+      "nombre": "cori",
+      "id": 3
+    }
+  ]
+}
