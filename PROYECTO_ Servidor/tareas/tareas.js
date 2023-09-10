@@ -37,6 +37,9 @@ formulario.addEventListener('submit', async e=>{
 })
 
 const obtenerLista = async () => {
+
+    limpiarHTML();
+
     const respuesta = await fetch('http://localhost:3000/tareas',{
         method: 'GET',
     });
@@ -89,4 +92,11 @@ lista.addEventListener('click', async e=> {
         console.log(response)
         e.target.parentElement.classList.toggle('check-todo');
     }
+    location.reload();
 })
+
+function limpiarHTML(){
+    while(lista.firstChild){
+        lista.removeChild(lista.firstChild);
+    }
+}

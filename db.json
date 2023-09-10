@@ -23,6 +23,10 @@
     {
       "nombre": "linda",
       "id": 6
+    },
+    {
+      "nombre": "Cris",
+      "id": 7
     }
   ],
   "tareas": [
@@ -35,6 +39,17 @@
       "text": "comer",
       "nombre": "cori",
       "id": 3
+    },
+    {
+      "text": "bailar",
+      "nombre": "Cris",
+      "id": 7
+    },
+    {
+      "text": "comer",
+      "nombre": "Cris",
+      "id": 8,
+      "checked": true
     }
   ]
 }
