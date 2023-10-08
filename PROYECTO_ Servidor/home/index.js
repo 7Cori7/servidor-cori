@@ -89,5 +89,3 @@ formL.addEventListener('submit', async e=>{
     }
 
 })
-
-//* FUNCIONES:
